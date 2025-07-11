@@ -1,0 +1,23 @@
+# ignore all by default
+*
+!.gitignore
+
+# only track the below for config files
+!nvim/
+!nvim/**
+
+!hypr/
+!hypr/**
+
+!kitty/
+!kitty/**
+
+!tmux/
+!tmux/**
+
+!waybar/
+!waybar/**
+
+!wofi/
+!wofi/**
+

@@ -1,0 +1,13 @@
+# ignore all by default
+*
+!.gitignore
+!.gitmodules
+!README.md
+
+# only track needed files and dirs
+!.p10k.zsh
+!.zprofile
+!.zshrc
+
+!.config/
+!.config/**

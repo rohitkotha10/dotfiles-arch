@@ -1,0 +1,18 @@
+{
+    "margin": "0 0 0 0",
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["battery"],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+    },
+
+    "clock": {
+        "format": "{:%a, %D, %H:%M}"
+    },
+    "battery": {
+      "format": "{capacity}% "
+    }
+}
