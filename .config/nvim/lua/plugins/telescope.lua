@@ -5,9 +5,9 @@ return {
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
       require("telescope").setup({
-        defaults = { 
-          path_display = { "truncate" }
-        }
+        defaults = {
+          path_display = { "truncate" },
+        },
       })
       local builtin = require("telescope.builtin")
       vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
@@ -17,5 +17,5 @@ return {
       vim.keymap.set("n", "<leader>fo", builtin.oldfiles, { desc = "Telescope previously open files" })
       vim.keymap.set("n", "<leader><leader>", builtin.resume, { desc = "Telescope resume" })
     end,
-  }
+  },
 }
